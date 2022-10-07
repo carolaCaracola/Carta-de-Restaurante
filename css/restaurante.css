@@ -1,0 +1,118 @@
+.menu{background-color: lightgrey;}
+.active{font-weight: 800;}
+.card{margin-top: 20px!important; background-color: rgb(224, 224, 219); border: 5px solid black; width: 100%; margin: 70px;}}
+
+html{
+    font-family: system-ui;
+}
+a{
+    text-decoration: none;
+}
+.wrap{
+    max: width 1200px;
+    margin: 0 auto;
+}
+.wrap-titulo-seccion{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    background-image: url(../img/fondosecciones.webp);
+    background-position:center;
+    background-size:contain;
+    background-repeat: repeat;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+.wrap-column-2-carta{
+    display:flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.plato-carta{
+    display: flex;
+    align-items: center;
+    border: none;
+    margin-bottom: 60px;
+}
+.img-plato-carta{
+    display: flex;
+    flex-basis: 60%;
+    justify-content:right;
+}
+
+.img-plato-carta img{
+    max-width: 200px;
+    max-height: 100px;
+}
+
+.descripcion{
+    border: none;
+   border-bottom: none;
+   border-top: none;
+   flex-basis: 60%;
+   margin: 20px;
+
+}
+
+.precio{
+    display:flex;
+    flex-basis: 25%;
+    justify-content: left;
+    font-weight: bold;
+}
+
+
+
+/***** End Section *****/
+
+
+.cuerpo {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(to bottom, rgb(0 0 0 / .2),rgb(0 0 0 / .5)),url(/img/chef.webp);
+    background-size: cover;
+    background-position: center;
+} 
+
+.texto {
+    text-align: center;
+    text-shadow:0 0 8px rgba(241, 237, 237, 0.2);
+    color: whitesmoke;
+    
+}
+
+.texto p {
+    font-size: 20px;
+    font-weight: 600;
+}
+/*** fin de cheff ***/
+
+.cuerpo2 {
+    border: solid whitesmoke;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(to bottom, rgb(0 0 0 / .2),rgb(0 0 0 / .5)),url(/img/bruschetta.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+/*** fin cocina ***/
+
+.footer{
+    width: 100vw;
+    height: 30px;
+    background-color: rgb(113, 36, 36);
+
+}
