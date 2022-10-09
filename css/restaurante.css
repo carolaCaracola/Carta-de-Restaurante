@@ -1,6 +1,12 @@
 .menu{background-color: lightgrey;}
 .active{font-weight: 800;}
-.card{margin-top: 20px!important; background-color: rgb(224, 224, 219); border: 5px solid black; width: 100%; margin: 70px;}}
+
+.card{
+    margin-top: 20px!important; 
+    background-color: rgb(224, 224, 219); 
+    border: 5px solid black; 
+    width: 100%; margin: 70px;
+}
 
 html{
     font-family: system-ui;
@@ -9,7 +15,7 @@ a{
     text-decoration: none;
 }
 .wrap{
-    max: width 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .wrap-titulo-seccion{
@@ -27,7 +33,6 @@ a{
     font-size: 60px;
     font-weight: bold;
 }
-
 
 .wrap-column-2-carta{
     display:flex;
@@ -110,7 +115,7 @@ a{
 
 /*** fin cocina ***/
 
-.footer{
+.footer {
     width: 100vw;
     height: 30px;
     background-color: rgb(113, 36, 36);
