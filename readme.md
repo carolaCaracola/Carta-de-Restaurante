@@ -36,19 +36,19 @@ Sitio web de un resturante compuesto por 3 paginas HTML detalladas a continuaci�
 <h2>Home</h2>
 <p>En esta primera parte, asi como en las otras dos complemetarias (contacto y carta) he creado con Bootstrap una barra con el menu inicial que permitira ir de una seccón a otra con un click.
 Con CSS he diseñado el contenido de la pagina principal con imagenes e información sobre el restaurante y su historia, animando con un carrusel de fotos a modo de galeria creado con Bootstrap y una serie "cards"  con los platos recomendados que al hacer click sobre el boton "ver en carta" dirigen directamente a la sección carta</p> <br>
-    <video width="800px" src="home.mp4" autoplay muted loop></video> <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WpEB47JCCiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
 </section>
 
 <section id="carta">
 <h2>Carta</h2>
 <p>Para la sección de carta he creado un menú compuesto por una imagen, nombre y descripcion y precio de cada plato, separados en categorias "antipasto" "pasta" "pizzas" "postre", en HTML, CSS y armonizando con flexbox para una correcta distribucion del espacio dentro de un diseño responsive con el uso de media-queries de CSS3, con el mismo menu superior que el resto de las secciones para la navegación fácil de una a la otra.</p>
-        <video width="800px" src="carta.mp4" autoplay muted loop></video> <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/djjPelbPPL4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><video width="800px" src="carta.mp4" autoplay muted loop></video> <br>
 </section>
 
 <section id="contacto">
 <h2>Contacto</h2>
 <p>Por ultimo en esta sección he creado en HTML un formulario eficaz de contacto donde el usuario puede dejar sus datos y enviar un mensaje al restaurante con los detalles de la reserva que desea realizar mediante el boton "enviar", tambien he añadido un "footer" que conecta con las diferentes redes sociales del establecimiento como forma de contacto</p> <br>
-        <video width="800px" src="Contacto.mp4" autoplay muted loop></video> <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YRtYCiFveP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
 </section>
 
 <section id="licencia">
