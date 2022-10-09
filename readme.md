@@ -15,8 +15,7 @@
 
 <section id="configuracion">
 <h2>Configuración</h2>
-<p>No se requiere configuración. Sólo hay que descargar el git y ejecutar abrir el archivo carta.html en el navegador de tu dispositivo.
-</p>
+<p>No se requiere configuración. Sólo hay que descargar el git y ejecutar abrir el archivo carta.html en el navegador de tu dispositivo.</p>
 </section>
 
 <section id="instalacion">
