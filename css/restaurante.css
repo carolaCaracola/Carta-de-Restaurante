@@ -2,7 +2,7 @@
 .active{font-weight: 800;}
 
 .card{
-    margin-top: 20px!important; 
+    margin-top: 80px!important; 
     background-color: rgb(224, 224, 219); 
     border: 5px solid black; 
     width: 100%; margin: 70px;
@@ -15,10 +15,11 @@ a{
     text-decoration: none;
 }
 .wrap{
-    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 .wrap-titulo-seccion{
+    width: 100%;
     height: 80px;
     display: flex;
     align-items: center;
@@ -35,10 +36,37 @@ a{
 }
 
 .wrap-column-2-carta{
+    width: 100%;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     row-gap: 1rem;
 }
+
+@media (max-width:768px){
+    .wrap-column-2-carta{        
+        flex-direction: column;        
+    }
+}
+
+@media (min-width:769px) and (max-width:992px){
+    .wrap-column-2-carta{        
+        flex-direction: column;        
+    }
+}
+
+@media (min-width:993px) and (max-width:1200px){
+    .wrap-column-2-carta{        
+        flex-direction: column;        
+    }
+}
+
+@media (min-width:1201px) and (max-width:1400px){
+    .wrap-column-2-carta{        
+        flex-direction: row;        
+    }
+}
+
+
 .plato-carta{
     display: flex;
     align-items: center;
@@ -49,6 +77,11 @@ a{
     display: flex;
     flex-basis: 60%;
     justify-content:right;
+    height: 15vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 10%;
 }
 
 .img-plato-carta img{
@@ -58,10 +91,10 @@ a{
 
 .descripcion{
     border: none;
-   border-bottom: none;
-   border-top: none;
-   flex-basis: 60%;
-   margin: 20px;
+    border-bottom: none;
+    border-top: none;
+    flex-basis: 60%;
+    margin: 20px;
 
 }
 
@@ -76,22 +109,27 @@ a{
 
 /***** End Section *****/
 
-
+/*** inicio de cheff ***/
 .cuerpo {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image:linear-gradient(to bottom, rgb(0 0 0 / .2),rgb(0 0 0 / .5)),url(/img/chef.webp);
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(/img/chef.webp);
     background-size: cover;
     background-position: center;
+    margin-bottom: 15px;
 } 
+
+.carousel-item{height: 60vh;}
+.carousel-caption{ background-color: rgba(0,0,0,0.5); padding: 3%; border-radius: 10px; font-weight: 400!important;}
 
 .texto {
     text-align: center;
     text-shadow:0 0 8px rgba(241, 237, 237, 0.2);
     color: whitesmoke;
+    padding: 5%;
     
 }
 
@@ -102,22 +140,50 @@ a{
 /*** fin de cheff ***/
 
 .cuerpo2 {
-    border: solid whitesmoke;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image:linear-gradient(to bottom, rgb(0 0 0 / .2),rgb(0 0 0 / .5)),url(/img/bruschetta.webp);
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(/img/bruschetta.webp);
     background-size: cover;
     background-position: center;
 }
 
 /*** fin cocina ***/
 
-.footer {
-    width: 100vw;
-    height: 30px;
-    background-color: rgb(113, 36, 36);
-
+footer {
+    width: 100%;
+    background-color: lightgrey;
+    text-align: center;
 }
+
+footer ul{
+    list-style: none;
+    display: inline-flex;
+}
+footer ul li{
+    padding: 10px;
+}
+footer ul li i{font-size: 20px;}
+footer ul li a{color:white}
+footer ul li a:hover{color:black}
+
+
+/*** CONTACTO ***/
+.containerform{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(/img/postres3.webp);
+    background-size: cover;
+    padding: 30px;
+    min-height: 100vh;
+    color:white;
+}
+
+form{max-width: 100%;}
+
+input{width: 100%;color: black;}
+
